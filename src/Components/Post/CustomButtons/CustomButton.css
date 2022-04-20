@@ -1,0 +1,9 @@
+.inactive{
+    background-color: grey;
+}
+.thumb-up{
+    background-color: green;
+}
+.thumb-down{
+    background-color: red;
+}
