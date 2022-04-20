@@ -7,7 +7,7 @@ function App() {
   const [posts, setPosts] = useState([
   {name: 'Steve',post: 'faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam' }, 
   {name: 'Michael', post: 'faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam'}, 
-  {name: 'Bob', post: 'faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam'}])
+  {name: 'Bob', post: 'faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam'}]);
   
   return (
     <div>
