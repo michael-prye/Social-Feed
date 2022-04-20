@@ -11,15 +11,19 @@ const CreatePost = (props) => {
             post: post
         };
         props.addNewPost(newPost)
+        document.getElementById("name").value ='';
+        setName('');
+        setPost('');
     }
 
 
+
     return ( 
-        <form onSubmit={handleSubmit}>
+        <form id="form" onSubmit={handleSubmit} >
             <label>Name</label>
-            <input type='text' value={name} onChange={(event)=> setName(event.target.value)}/>
+            <input id ="name"type='text' value={name} onChange={(event)=> setName(event.target.value)}/>
             <label>Post</label>
-            <input type="text" value={post} onChange={(event)=> setPost(event.target.value)} />
+            <input id = 'post'type="text" value={post} onChange={(event)=> setPost(event.target.value)} />
             <button type="submit">Create</button>
         </form>
      );
