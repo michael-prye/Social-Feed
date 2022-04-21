@@ -10,12 +10,18 @@ const CustomButtons = (props) => {
             setThumbUpButton('thumb-up')
             setThumbDownButton('inactive')
         }
+        else{
+            setThumbUpButton('inactive')
+        }
         
     }
     function thumbDownClick(){
         if(thumbDownButton ==='inactive'){
             setThumbDownButton('thumb-down')
             setThumbUpButton('inactive')
+        }
+        else{
+            setThumbDownButton('inactive')
         }
 
     }
