@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 import DisplayPosts from "./Components/DisplayPosts/DisplayPosts";
 import CreatePost from "./Components/CreatePost/CreatePost";
+import NavBar from "./Components/NavBar/NavBar";
+import "./App.css"
 
 
 
@@ -17,8 +19,12 @@ function App() {
   
   return (
     <div>
-      <CreatePost addNewPost={addNewPost}/>
-      <DisplayPosts posts = {posts}/>
+      <NavBar/>
+      <body class = 'body'>
+        <CreatePost addNewPost={addNewPost}/>
+        <DisplayPosts posts = {posts}/>
+        </body>
+      
     </div>
   );
 }
