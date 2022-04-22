@@ -11,8 +11,12 @@ const CreatePost = (props) => {
             name: name,
             post: post
         };
-        props.addNewPost(newPost)
-        document.getElementById("name").value ='';
+        if(newPost.name === ""|| newPost.post === ""){
+            alert("One or more fields required")
+        }
+        else{
+            props.addNewPost(newPost)
+        }
         setName('');
         setPost('');
     }
