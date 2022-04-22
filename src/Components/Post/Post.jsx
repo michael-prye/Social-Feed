@@ -1,11 +1,12 @@
 import CustomButtons from "./CustomButtons/CustomButtons";
+import "./Post.css"
 
 const Post = (props) => {
     console.log(props)
     return (
-        <div>
-            <h3>{props.name}</h3>
-            <p>{props.post}</p>
+        <div class ="div">
+            <h3 class = "name">{props.name}</h3>
+            <p class="post">{props.post}</p>
             <CustomButtons/>
             
             

@@ -1,6 +1,9 @@
 import { useState } from "react";
 import "./CustomButton.css"
 
+
+
+
 const CustomButtons = (props) => {
     const [thumbUpButton, setThumbUpButton] = useState('inactive')
     const [thumbDownButton, setThumbDownButton] = useState('inactive')
@@ -26,9 +29,10 @@ const CustomButtons = (props) => {
 
     }
     return ( 
-        <div>
+        <div class="button">
             <button className={thumbUpButton} onClick={thumbUpClick}>THUMBS UP</button>
             <button className={thumbDownButton} onClick={thumbDownClick}>THUMBS DOWN</button>
+
             </div>
      );
 }

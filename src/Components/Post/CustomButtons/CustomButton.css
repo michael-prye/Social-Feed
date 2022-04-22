@@ -1,9 +1,17 @@
 .inactive{
     background-color: grey;
+    margin-right: 10px;
 }
 .thumb-up{
     background-color: green;
 }
 .thumb-down{
     background-color: red;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 62px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
