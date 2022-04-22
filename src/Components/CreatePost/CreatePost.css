@@ -5,6 +5,7 @@
     border-radius: 25px;
     height: 207px;
     width: 1049px;
+    box-shadow: 5px 5px 10px;
 }
 .input{
     display: flex;
@@ -28,6 +29,7 @@
     border-radius: 10px;
     margin-top: 11px;
     resize: none;
+    padding: 10px 10px;
 }
 .bottom-half{
     display: flex;

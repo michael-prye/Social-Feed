@@ -7,14 +7,19 @@ const CreatePost = (props) => {
 
     function handleSubmit(event){
         event.preventDefault();
+        let time = new Date().toLocaleString();
+        
         let newPost = {
+            date: time,
             name: name,
             post: post
+            
         };
         if(newPost.name === ""|| newPost.post === ""){
             alert("One or more fields required")
         }
         else{
+            
             props.addNewPost(newPost)
         }
         setName('');

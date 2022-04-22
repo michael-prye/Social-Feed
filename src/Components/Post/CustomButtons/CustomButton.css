@@ -4,9 +4,11 @@
 }
 .thumb-up{
     background-color: green;
+    margin-right: 10px;
 }
 .thumb-down{
     background-color: red;
+    margin-right: 10px;
 }
 .button{
     display: flex;

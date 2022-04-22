@@ -8,12 +8,12 @@ import "./App.css"
 
 function App() {
   const [posts, setPosts] = useState([
-  {name: 'Steve',post: 'faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam' }, 
-  {name: 'Michael', post: 'faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam'}, 
-  {name: 'Bob', post: 'faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam'}]);
+  {date: '1/1/2022, 1:35:00 PM',name: 'Steve',post: 'faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam' }, 
+  {date: '2/2/2022, 1:35:00 PM',name: 'Michael', post: 'faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam'}, 
+  {date: '3/3/2022, 1:35: PM',name: 'Bob', post: 'faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam'}]);
 
   function addNewPost(entry){
-    let tempPosts = [...posts, entry];
+    let tempPosts = [entry,...posts];
     setPosts(tempPosts)
   }
   

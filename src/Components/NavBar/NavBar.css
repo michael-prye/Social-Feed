@@ -1,0 +1,12 @@
+.nav-div{
+    font-size: 35px;
+    display: flex;
+    padding-top: 32px;
+
+}
+.nav-header{
+    height: 131px;
+}
+.feed{
+ color: #848484;
+}
