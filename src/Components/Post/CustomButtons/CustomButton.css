@@ -1,13 +1,12 @@
 .inactive{
-    background-color: grey;
+    
     margin-right: 10px;
 }
 .thumb-up{
-    background-color: green;
+    
     margin-right: 10px;
 }
 .thumb-down{
-    background-color: red;
     margin-right: 10px;
 }
 .button{
@@ -16,4 +15,7 @@
     margin-right: 62px;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+.test{
+    
 }
